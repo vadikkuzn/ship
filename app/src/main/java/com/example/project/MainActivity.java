@@ -57,34 +57,6 @@ public class MainActivity extends AppCompatActivity {
         ship2.startAnimation(previewship2);
 
 
-/*
-        ball.setOnTouchListener(new View.OnTouchListener() {
-            @Override
-            public boolean onTouch(View v, MotionEvent event) {
-                switch (event.getAction()) {
-
-
-                    case MotionEvent.ACTION_DOWN:
-                        break;
-
-                    case MotionEvent.ACTION_MOVE:
-
-                        ball.animate()
-                                .rotation(event.getY()/25)
-                                .setDuration(0)
-                                .start();
-
-                        break;
-
-                    default:
-                        return false;
-                }
-
-                return true;
-            }
-        });
-
-*/
         play.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

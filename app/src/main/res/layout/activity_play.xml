@@ -8,10 +8,38 @@
     tools:context=".PlayActivity">
 
     <ImageView
+        android:id="@+id/gun1"
+        android:layout_width="29dp"
+        android:layout_height="27dp"
+        android:layout_marginBottom="48dp"
+        app:layout_constraintBottom_toBottomOf="@+id/ship1"
+        app:layout_constraintEnd_toEndOf="@+id/ship1"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/ship1"
+        app:srcCompat="@drawable/gun" />
+
+    <ImageView
+        android:id="@+id/ship1"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="48dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.087"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/blac2" />
+
+    <ImageView
         android:id="@+id/imageView"
         android:layout_width="wrap_content"
         android:layout_height="73dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:srcCompat="@drawable/water"
         tools:layout_editor_absoluteX="0dp" />
+
 </android.support.constraint.ConstraintLayout>
